@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    background: #111;
+    color: #fff;
+}
+/* Navbar style start  */
+.navbar-area{
+   background: #111;
+}
+.navbar-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.navbar-logo h1{
+    color: #E6533C;
+
+}
+.navbar-menu{
+    display: block;
+}
+.navbar-btn{
+    color: #fff;
+    margin-left: 10px;
+}
+a.navbar-btn.active {
+    background: #E6533C;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+.hamburger-menu{
+    display: none;
+    color: #fff;
+}
+
+/* Navbar style End  */
+
+/* Banner area start  */
+.banner-area{
+    background: #111;
+    color: #fff;
+}
+.banner-hero{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.banner-content{
+    width: 50%;
+}
+.banner-content p{
+    font-size: 16px;
+    color: #909090;
+}
+.banner-content h1{
+    font-size: 78px;
+}
+.fitness-button{
+    display: flex;
+}
+.fitness-button>button{
+    font-size: 18px;
+}
+button.fitness-btn1.active {
+    background: #E6533C;
+    padding: 12px 35px;
+    border-radius: 22px;
+    color: #fff;
+    border: 0;
+}
+
+button.fitness-btn2 {
+    background: #111;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 39px;
+    border-radius: 22px;
+    margin-left: 16px;
+}
+.banner-img{
+    width: 48%;
+    border: 1px solid red;
+    height: 582px;
+    background-image: url(./images/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* Banner area End  */
+
+/* change-habits-area start */
+.change-habits-area{
+    width: 80%;;
+    margin: auto;
+}
+.habbit-content{
+    text-align: center;
+}
+.habbit-images{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 8px;
+}
+.habbit-content p{
+    color: #6f6969;
+}
+.habit img {
+    border-radius: 85px;
+}
+.habit p{
+    color:#6f6969
+}
+/* Run an Extra  */
+.extra-run-area{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+.extra-run-content{
+    width: 50%;
+}
+.extra-run-img{
+    width: 48%;
+    height: 300px;
+    background-image: url(./images/run.jpg);
+}

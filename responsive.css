@@ -1,0 +1,24 @@
+@media screen and (max-width: 576px) {
+    .hamburger-menu {
+       display: block;
+    }
+    .navbar-menu{
+        display: none;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
+    .fitness-button{
+       flex-direction: row;
+    }
+    .banner-hero{
+        flex-direction: column;
+    }
+    .habbit-images{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
