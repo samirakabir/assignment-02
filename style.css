@@ -6,8 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: "Inter", sans-serif;
-    color: #fff;
-    border-radius: 20px;
+    /* color: #fff; */
 }
 body{
     background: #111;
@@ -126,6 +125,7 @@ button.fitness-btn2 {
 
 .habbit-content {
     text-align: center;
+    color: #fff;
 }
 
 .habbit-images {
@@ -173,6 +173,7 @@ button.fitness-btn2 {
 
 .extra-run-content h1 {
     font-size: 48px;
+    color: #fff;
 }
 
 .extra-run-content p {
@@ -190,6 +191,7 @@ button.fitness-btn2 {
     width: 80%;
     margin: auto;
     text-align: center;
+    color: #fff;
 }
 .team-img{
     display: grid;
@@ -247,6 +249,7 @@ button.fitness-btn2 {
     background: #222;
     width: 100%;
     border-radius: 0;
+    margin-top: 78px;
 }
 .footer-area{
     width: 80%;
@@ -254,24 +257,25 @@ button.fitness-btn2 {
 }
 .footer-content{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     /* grid-template-columns: repeat(3, 1fr); */
-    padding: 14px;
+    padding: 43px 10px;
 }
 .content-01 h1{
     color: #E6533C;
-    font-size: 70px;
+    font-size: 62px;
 }
 .content-01 p{
     color: #6f6969;
     font-size: 14px;
 }
 .content-02 h1{
-    font-size: 32px;
+    font-size: 28px;
+    color: #fff;
 }
 .content-02 ul li{
     color: #6f6969;
-    font-size: 23px;
+    font-size: 18px;
 }
 .end-footer p {
     text-align: center;
@@ -283,3 +287,54 @@ button.fitness-btn2 {
     width: 100%;
     height: 1px;
 }
+/* bmi-calculator-area  */
+.bmi-calculator-area{
+    width: 100%;
+}
+.bmi-content{
+    width: 54%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 7%;
+    color: #fff;
+}
+.bmi-content p{
+    color: #716e6e;
+}
+.bmi-table{
+    background: #222;
+    border-radius: 0;
+    padding: 6% 2%;
+}
+.bmi-main-table{
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    width: 80%;
+    margin: auto;
+}
+.bmi-chart h1{
+    font-size: 28px;
+    margin-bottom: 12%;
+    color: #fff;
+}
+.bmi-chart table {
+    border-collapse: collapse;
+  }
+.bmi-chart table, td, th {
+    border: 1px solid #584d4d;
+    text-align: justify;
+    padding: 8px;
+    color: #fff;
+  }
+  .bmi-calculator{
+    text-align: justify;
+    color: #fff;
+  }
+  .bmi-calculator p{
+    color: #6f6969;
+  }
+  .input-text{
+    display: flex;
+    
+  }
