@@ -21,4 +21,24 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .extra-run-area{
+        flex-direction: column;
+    }
+    .extra-run-content {
+        width: 100%;
+    }
+    .extra-run-img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .extra-run-content button {
+       width: 100%;
+    }
+    .team-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-content{
+       flex-direction: column;
+    }
 }
