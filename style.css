@@ -217,6 +217,9 @@ button.fitness-btn2 {
 .extra-run-content {
     width: 52%;
 }
+.extra-run-content {
+    width: 60%;
+}
 
 .extra-run-img {
     width: 38%;
@@ -224,6 +227,14 @@ button.fitness-btn2 {
     background-image: url(./images/run.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 12px;
+}
+.extra-run-img2 {
+    width: 40%;
+    height: 360px;
+    background-image: url(https://anticancerlifestyle.org/wp-content/uploads/2022/03/Mindset-101.png);
+    background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 12px;
 }
 
@@ -636,3 +647,17 @@ button.calculate {
     font-size: 24px;
     font-weight: 400;
 }
+/* Ebooks area start  */
+.ebooks-main-area{
+    width: 100%;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
