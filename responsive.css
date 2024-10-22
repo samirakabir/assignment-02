@@ -1,3 +1,119 @@
+@media screen and (max-width: 992px) {
+    .hamburger-menu {
+        display: block;
+     }
+     .navbar-menu{
+         display: none;
+     }
+     .banner-content{
+         width: 100%;
+     }
+     .banner-img{
+         width: 100%;
+     }
+     .fitness-button{
+        flex-direction: row;
+     }
+     .banner-hero{
+         flex-direction: column;
+     }
+     .habbit-images{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .habit p {
+        text-align: center;
+        width: 50%;
+        margin: auto;
+     }
+     .extra-run-area{
+         flex-direction: row;
+         gap: 25px;
+     }
+     .extra-run-content {
+         width: 100%;
+     }
+     .extra-run-img {
+         width: 100%;
+         margin-top: 10px;
+     }
+     .extra-run-content button {
+        width: 100%;
+     }
+     .team-img{
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+     }
+     .footer-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 23px;
+     }
+     
+       .bmi-main-table{
+        flex-direction: column;
+     }
+     .input-text2{
+         display: flex;
+         gap: 6px;
+     }
+     .extra-run-content h1{
+        font-size: 32px;
+     }
+     .bmi-calculator{
+         margin-top: 16px;
+     }
+     button.fitness-btn1.active{
+         font-size: 12px;
+         padding: 8px 23px;
+     }
+  
+     .training-img01{
+         width: 30%;
+         height: 200px;
+     }
+     .training-img02{
+         width: 40%;
+         height: 200px;
+     }
+     .training-img03{
+         width: 30%;
+         height: 200px;
+     }
+     .training-img04{
+         width: 40%;
+         height: 200px;
+     }
+     .training-img05{
+         width: 30%;
+         height: 200px;
+     }
+     .training-img06{
+         width: 30%;
+         height: 200px;
+     }
+     .overly-text{
+         font-size: 18px;
+     }
+     .overly-text2{
+         font-size: 18px;
+     }
+     .overly-text3{
+         font-size: 18px;
+     }
+     .overly-text4{
+         font-size: 18px;
+         top: 10px;
+         left: 20px;
+     }
+    
+     .overly-text5{
+         font-size: 18px;
+     }
+     .overly-text6{
+         font-size: 18px;
+     }
+}
 @media screen and (max-width: 576px) {
     .hamburger-menu {
        display: block;
@@ -21,6 +137,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    
     .extra-run-area{
         flex-direction: column;
     }
@@ -40,5 +157,63 @@
     }
     .footer-content{
        flex-direction: column;
+    }
+    
+      .bmi-main-table{
+       flex-direction: column;
+    }
+    .input-text2{
+        display: flex;
+        gap: 6px;
+    }
+       
+    .bmi-calculator{
+        margin-top: 16px;
+    }
+    button.fitness-btn1.active{
+        font-size: 12px;
+        padding: 8px 23px;
+    }
+    .training-img03{
+        display: none;
+    }
+    .training-img06{
+        display: none;
+    }
+    .training-img01{
+        width: 50%;
+        height: 200px;
+    }
+    .training-img02{
+        width: 50%;
+        height: 200px;
+    }
+    .training-img04{
+        width: 50%;
+        height: 200px;
+    }
+    .training-img05{
+        width: 50%;
+        height: 200px;
+    }
+    .overly-text{
+        font-size: 18px;
+    }
+    .overly-text2{
+        font-size: 18px;
+    }
+    .overly-text3{
+        font-size: 18px;
+    }
+    .overly-text4{
+        font-size: 18px;
+        top: 10px;
+        left: 20px;
+    }
+    .overly-text5{
+        font-size: 18px;
+    }
+    .overly-text6{
+        font-size: 18px;
     }
 }

@@ -6,7 +6,6 @@
     box-sizing: border-box;
     list-style: none;
     font-family: "Inter", sans-serif;
-    /* color: #fff; */
 }
 body{
     background: #111;
@@ -58,6 +57,13 @@ a.navbar-btn.active {
     background: #111;
     color: #fff;
 }
+.card01{
+    background: #393939;
+}
+.card02{
+    background: #393939;
+}
+
 
 .banner-hero {
     width: 80%;
@@ -107,11 +113,60 @@ button.fitness-btn2 {
 
 .banner-img {
     width: 48%;
-    border: 1px solid red;
-    height: 582px;
-    background-image: url(./images/Images\ 2.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    /* border: 1px solid red; */
+ 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(./images/Images\ 2.png); */
+
+}
+.image-container img {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 228px;
+}
+
+.badge {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.badge h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.badge p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.workout-videos {
+    background-color: #5555556e;
+    margin-top: 58px;
+    margin-left: 318px;
+}
+
+.video-tutorials {
+    background-color: #5555556e;
+    margin-left: -371px;
+    margin-top: -74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Banner area End  */
@@ -169,6 +224,7 @@ button.fitness-btn2 {
     background-image: url(./images/run.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 12px;
 }
 
 .extra-run-content h1 {
@@ -185,6 +241,8 @@ button.fitness-btn2 {
     font-size: 18px;
     padding: 12px 52px;
     border: 0;
+    color: #fff;
+    border-radius: 23px;
 }
 /* meet-out-team-area  */
 .meet-out-team-area{
@@ -203,8 +261,10 @@ button.fitness-btn2 {
 .team-img1{
     background-image: url(./images/trainer1.png);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: 272px;
+    border-radius: 10px;
 }
  .img2{
     background-image: url(./images/trainer2.png);
@@ -308,10 +368,10 @@ button.fitness-btn2 {
 }
 .bmi-main-table{
     display: flex;
-    justify-content: space-between;
     background: #222;
     width: 80%;
     margin: auto;
+    gap: 12%;
 }
 .bmi-chart h1{
     font-size: 28px;
@@ -324,8 +384,8 @@ button.fitness-btn2 {
 .bmi-chart table, td, th {
     border: 1px solid #584d4d;
     text-align: justify;
-    padding: 8px;
-    color: #fff;
+    padding: 12px 19px;
+    color: #a59e9e;
   }
   .bmi-calculator{
     text-align: justify;
@@ -336,5 +396,243 @@ button.fitness-btn2 {
   }
   .input-text{
     display: flex;
-    
+    gap: 5px;
   }
+
+  .circle {
+    width: 25px;
+    height: 25px;
+    background: #E6533C;
+    border-radius: 30px;
+}
+input#height {
+    width: 50%;
+    padding: 18px;
+    border-radius: 7px;
+    background: #383838;
+    border: 0;
+    font-size: 16px;
+}
+
+input#weight {
+    width: 50%;
+    padding: 10px;
+    background: #383838;
+    border: 0;
+    border-radius: 7px;
+}
+
+input#age {
+    width: 50%;
+    background: #383838;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    color: #ae9e9e;
+    font-size: 16px;
+}
+
+.input-text2 {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+select#sex {
+    width: 49%;
+    background: #383838;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    color: #808080;
+    font-size: 16px;
+}
+select#activity {
+    width: 100%;
+    margin-top: 8px;
+    background: #383838;
+    color: #a09d9d;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+}
+button.calculate {
+    background: #E6533C;
+    color: #fff;
+    margin-top: 26px;
+    padding: 13px 54px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 20px;
+}
+
+/* training-exercise-area  */
+.training-exercise-area{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+}
+.training-content p{
+    color: #584d4d;
+    margin-bottom: 32px;
+}
+.training-img01{
+    background-image: url(./images/exercise1.jpg);
+    background-repeat: no-repeat;
+    height: 262px;
+    width: 25%;
+    background-size: cover;
+    position: relative;
+}
+.training-img02{
+    background-image: url(./images/exercise2.png);
+    background-repeat: no-repeat;
+    height: 262px;
+    width: 50%;
+    background-size: cover;
+    position: relative;
+}
+.training-img03{
+    background-image: url(./images/exercise3.png);
+    background-repeat: no-repeat;
+    height: 262px;
+    width: 25%;
+    background-size: cover;
+    position: relative;
+}
+.training-img04{
+    background-image: url(./images/exercise4.png);
+    background-repeat: no-repeat;
+    height: 262px;
+    width: 40%;
+    position: relative;
+}
+.training-img05{
+    background-image: url(./images/exercise5.jpg);
+    background-repeat: no-repeat;
+    height: 262px;
+    width: 25%;
+    background-size: cover;
+    position: relative;
+}
+.training-img06{
+    background-image: url(./images/exercise6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 262px;
+    width: 35%;
+    position: relative;
+}
+.training-card01 {
+    width: 100%;
+    display: flex;
+}
+
+.training-card02 {
+    width: 100%;
+    display: flex;
+}
+.overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #06FFD280;
+}
+
+.overly-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+.overly2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FF00004D;
+}
+
+.overly3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000080;
+}
+
+.overly4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000080;
+}
+
+.overly5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #42FF004D;
+}
+
+.overly6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0047FF4D;
+}
+.overly-text2 {
+    position: absolute;
+    top: 15px;
+    left: 31px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.overly-text3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.overly-text4 {
+    position: absolute;
+    top: 20px;
+    left: 224px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.overly-text5 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.overly-text6 {
+    position: absolute;
+    bottom: 20px;
+    left: 45px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
